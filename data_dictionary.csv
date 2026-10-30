@@ -1,0 +1,10 @@
+field,description,type
+participant_id,Unique synthetic participant ID,Text
+treatment_group,"Assigned study group: Placebo, Drug A, Drug B",Category
+age,Age in years,Integer
+sex,Synthetic sex category,Category
+baseline_score,Baseline efficacy score (0-100),Numeric
+week8_score,Efficacy score at week 8 (0-100),Numeric
+change_score,week8_score minus baseline_score,Numeric
+adherence_percent,Synthetic adherence percentage,Integer
+adverse_event,Synthetic adverse-event severity,Category
